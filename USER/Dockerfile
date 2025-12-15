@@ -3,4 +3,4 @@ RUN dnf install nginx -y
 RUN useradd surekha
 
 USER surekha
-CMD ['sleep', '1000']
+CMD ['sleep', '10000']
